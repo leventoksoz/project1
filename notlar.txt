@@ -1,0 +1,10 @@
+git init                  //(ilk kez oluşturulan projelerde)
+git log
+git add <dosya adı> -     //(yazılan dosyayı yolluyor)
+git add .                 //(gitignore harici her şeyi ekliyor.) 
+
+git commit -m "Proje oluşturuldu"
+
+git remote add origin https://github.com/leventoksoz/project1.git
+
+git push origin main
